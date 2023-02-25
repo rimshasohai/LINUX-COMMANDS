@@ -1,0 +1,40 @@
+pwd=wo directory print krde g jispr kaam krhi hogi.
+cd= change of directory.
+cd ..=jb hme apni directory se wapis jana hota h.
+ls = list all the directories.
+mkdir -m 775 directory name= to create new directory(folder)
+touch filename = to create new file
+mv=mv (filename jisse move krana h) (jis folder me move krana h wo likhe g)
+cp=cp  (filename jisse move krana h) (jis folder me move krana h wo likhe g)
+ls -R=directories k andar k files k represent krta h
+touch .filename=to create hidden files
+ls -a=to represent hidden files
+clear= to clear terminal
+history = to show all commands
+echo = to print on linux terminal
+ps= list all processes
+chmod (number to give access like read,write) file name
+kill (process id)= to kill the process
+vi [new file name]=to create new file
+ctrl z=from exiting from a file
+to create new file( cat > filename)(touch filename)
+to add lines at end of file (cat >> filename)
+to show the whole (cat filename)
+chmod= to give permissions to files
+If some files is not running,first give permission using chmod 774 file name then run the file.
+To create a bash file,go to text editor.open text editor.Write the first line as (#! /bin/bash)
+To run a bash file,use (./filename)
+shift+3=#,shift+'="
+To end if statement,use (fi).
+To remove file rm filename.
+To take input from user: read -p "ENTER YOUR NAME:"
+To declare any variable,we use ($variable name)
+shift+~ =|
+
+# WHILE LOOP - READ THROUGH A FILE LINE BY LINE
+# LINE=1
+# while read -r CURRENT_LINE
+#   do
+#     echo "$LINE: $CURRENT_LINE"
+#     ((LINE++))
+# done < "./new-1.txt"
